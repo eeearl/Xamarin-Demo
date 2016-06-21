@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="WeirdSampleApp.LayoutPage">
+	<RelativeLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+		<Button x:Name="clickMeButton" Text="Click Me" WidthRequest="140" HeightRequest="70"
+			RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor = 0.25, Constant = -70}"
+			RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor = 0.25, Constant = -35}">
+		</Button>
+
+		<Image Source="android.png"
+				Aspect="AspectFit"
+				WidthRequest="160" HeightRequest="160"
+			RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor = 0.5, Constant = -80}"
+			RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor = 0.5, Constant = -80}">
+		</Image>
+	</RelativeLayout>
+</ContentPage>

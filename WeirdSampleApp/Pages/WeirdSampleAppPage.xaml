@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:WeirdSampleApp" x:Class="WeirdSampleApp.WeirdSampleAppPage">
+	<StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+		<Button x:Name="ListPageButton" Text="ListView" HorizontalOptions="Fill" Clicked="OnListViewPageButtonClicked"></Button>
+		<Button x:Name="GoDialogPageButton" Text="Dialog" HorizontalOptions="Fill"></Button>
+		<Button x:Name="GoPassDataPageButton" Text="PassData" HorizontalOptions="Fill"></Button>
+		<Button x:Name="GoLayoutPageButton" Text="Layouts" HorizontalOptions="Fill"></Button>
+	</StackLayout>
+</ContentPage>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="WeirdSampleApp.PassDataPage">
+	<ContentPage.Content>
+		<StackLayout Orientation="Vertical" Padding="20">
+			<StackLayout Orientation="Horizontal">
+				<Label x:Name="NameTitle" Text="Name: "></Label>
+				<Label x:Name="Name" Text="{Binding Name}"></Label>
+			</StackLayout>
+			<StackLayout Orientation="Horizontal">
+				<Label x:Name="AgeTitle" Text="Age: "></Label>
+				<Label x:Name="Age" Text="{Binding Age}"></Label>
+			</StackLayout>
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>
